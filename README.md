@@ -14,16 +14,13 @@ Modern genomic experiments generate massive datasets with thousands to millions 
 The goal of this project is to show how Principal Component Analysis (PCA) can reduce the complexity of genomic data and how k-means clustering can group samples with similar genetic profiles. PCA transforms the data into a smaller set of uncorrelated variables that capture the main sources of variation, while clustering applied to these new variables helps reveal hidden patterns such as population structure, technical effects, or biologically meaningful groupings. Together, these methods provide a reproducible framework for exploring structure in genomic datasets.
 
 ## Methodology
-A detailed statistical explanation of the approach, including problem formulation, data preprocessing, PCA decomposition, validation, and clustering, is provided in the methodology document:  
+A detailed statistical explanation of the approach, including problem formulation, data preprocessing, PCA decomposition, validation, and clustering, is provided in the methodology document: [Methodology]([./Methodology%20-%20analysis%20of%20genomic%20data.pdf](https://github.com/ShahnewazMorshed/Principal-Component-Analysis/blob/main/Methodology.pdf))
 
-📄 [Methodology]([./Methodology%20-%20analysis%20of%20genomic%20data.pdf](https://github.com/ShahnewazMorshed/Principal-Component-Analysis/blob/main/Methodology.pdf))
-
-## Repository Structure
 ---
 
 ## Project Structure
 
-- **Data Source:** 
+- **Data:** 
   - [Data](https://github.com/ShahnewazMorshed/Principal-Component-Analysis/blob/main/ccrescentus.fa): The genomic sequence used in this project comes from a FASTA file of *Caulobacter crescentus*.
 
 - **Python Notebooks:**
